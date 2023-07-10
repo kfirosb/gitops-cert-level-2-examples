@@ -23,9 +23,9 @@ spec:
       - CreateNamespace=true 
 
   ignoreDifferences:
-  - group: ""
-    kind: Secret
-    jsonPointers:
-    - /data
-    - /stringData 
+    - group: ""
+      kind: Secret
+      jsonPointers:
+       - /data
+       - /stringData
    
