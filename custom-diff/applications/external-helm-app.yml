@@ -28,8 +28,8 @@ spec:
     jsonPointers:
     - /metadata/annotations
   - group: ""
-  kind: Secret
-  jsonPointers:
+    kind: Secret
+    jsonPointers:
     - /data
     - /stringData 
    
